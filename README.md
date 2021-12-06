@@ -43,3 +43,25 @@ After running and evaluating the SMOTE Model, we can see the model is similar to
 - In this SMOTEENN Model, we observe the balanced accuracy score is 64.9%
 - The high risk precision score this time shows a 71% sensitivity with 1% and a F1 score of 2%
 - Due to this model also having a greater number of false positives, the low risk sensitivity is 59%
+
+### BalancedRandomForestClassifier Model
+
+![](Resources/
+![](Resources/
+
+- In the BalancedRandomForestClassifier, we observe the balanced accuracy score is 75.1%.
+- The high risk precision is appearing as 3% with a 63% sensitivity, thus leading to a F1 of 5%
+- The low risk sensitivity is now 87% with 100% accuracy
+
+### EasyEnsembleClassifier Model
+
+![](Resources/easy_ensemble_balanced_accuracy.PNG)
+![](Resources/easy_ensemble_imbalanced.PNG)
+
+- In this model, we see it is similar to the BalancedRandomForest Model in the sense the balanced accuracy is a little higher at 75.2%
+- The high risk precision score is appearing at 3& with a 63& sensitivity score as well as a F1 of 5%
+- The low risk is also 87&
+
+## Summary
+
+After performing and evaluating the numerous models, we determined that the Ensemble models showed more improvement in determining a high credit risk than the other models. The EasyEnsembleClassifier model shows the highest score of 75.2% while also showing a 87% sensitivity in detecting low risk credit scores. In this particular scenario, none of these model is close to being perfect in determining credit risk as they all have room for error and would not recommend a particular model to use.
