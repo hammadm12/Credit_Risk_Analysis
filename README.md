@@ -9,10 +9,15 @@ Jill was impressed with our work we provided early on in the module. Now, we are
 
 ### RandomOverSampler Model
 
+![](Resources/balanced_accuracy_score.PNG)
+![](Resources/imbalanced_classification_report.PNG)
 
 From the random oversampler model, T=the balanced accuracy score is approximately 60.9%. The high risk precison score for this model appears 1% with a F1 score of 2%. Due to the higer number of those in the low risk population, its precision shows almost a 100% result with a sensitivity of 66%.
 
 ### SMOTE Model
+ 
+ ![](Resources/
+ ![](Resources/
  
 After running and evaluating the SMOTE Model, we can see the model is similar to the random sampler model.
 - The balanced accuracy score shows approximately a score of 63.5% 
@@ -21,11 +26,19 @@ After running and evaluating the SMOTE Model, we can see the model is similar to
 
 ### Cluster Centroids Model
 
+![](Resources/
+![](Resources/
+![](Resources/
+
 - In this model, the balanced accuracy score is down to 50.2%
 - However, the high risk precision score is still appearing as 1% with a 58% sensitivity, thus yeilding a F1 of 1%
 - Due to this models higher number of false positives, the low risk sensitivity is appearing as 43%.
 
 ### SMOTEENN Model
+
+![](Resources/
+![](Resources/
+![](Resources/
 
 - In this SMOTEENN Model, we observe the balanced accuracy score is 64.9%
 - The high risk precision score this time shows a 71% sensitivity with 1% and a F1 score of 2%
